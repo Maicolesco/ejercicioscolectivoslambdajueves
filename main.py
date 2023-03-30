@@ -1,4 +1,17 @@
-nombres = []
+personas = []
+datos = {
+    "nombre",
+    "id",
+    "tel"
+}
+def RegistrarDato():
+    for i in range(0, 8):
+        nombre = input("Digite el nombre: ")
+        id = int(input("Digite el id: "))
+        tel = int(input("Digite el telefono: "))
+        datos = {"nombre": nombre, "id": id, "tel": tel}
+        personas.append(datos)
+
 def MostrarNombres(nombres):
         nombres = input("Digite nombre 1: ")
         nombres = input("Digite nombre 2: ")
@@ -9,4 +22,5 @@ def MostrarNombres(nombres):
         nombres = input("Digite nombre 7: ")
         nombres = input("Digite nombre 8: ")
         
-MostrarNombres(nombres)
+RegistrarDato()
+print(personas)
