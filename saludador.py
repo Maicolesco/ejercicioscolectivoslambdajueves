@@ -5,3 +5,9 @@ def saludar(nombre):
 #llamar funcion
 resultado=saludar('Mafe')
 print(resultado)
+
+diccionario = {
+    'nombre':resultado ,
+    'edad' : 20
+}
+print (diccionario)
