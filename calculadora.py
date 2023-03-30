@@ -8,4 +8,4 @@ for i in range(5):
   numeros.append(num)
 
 resultado=sumar(numeros)
-print("Los números ingresados son: ", resultado)
+print("La suma de los números ingresados son: ", resultado)
